@@ -16,9 +16,13 @@ public class Silinder{
 		return 2*3.14*c*h;
 		
 	}
+	public double ringipindala(){
+		return 3.14*(c*c);
+		
+	}
 	
 
 	public String toString(){
-		return "Silindri ruumala on "+ruumala()+" kuupmeetrit. Taispindala on "+taispindala()+" ruutmeetrit. Kulgpindala on "+kylgpindala()+" ruutmeetrit.";
+		return "Silindri ruumala on "+ruumala()+" kuupmeetrit. Taispindala on "+taispindala()+" ruutmeetrit. Kulgpindala on "+kylgpindala()+" ruutmeetrit. Ringipindala on "+ringipindala()+" ruutmeetrit.";
 	}
 }
